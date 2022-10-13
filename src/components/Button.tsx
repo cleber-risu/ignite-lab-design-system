@@ -13,7 +13,7 @@ export function Button({ children, asChild }: ButtonProps) {
 
   return (
     <Comp className={clsx(
-      'text-gray-100 font-sans'
+      'py-4 px-3 rounded font-semibold bg-cyan-500 text-black text-sm transition-colors hover:bg-cyan-300 focus:ring-2 ring-white'
     )}>
       {children}
     </Comp>
